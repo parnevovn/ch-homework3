@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZuv4zeds6T2vW8aLdDo//JjUlM8hO5UdgfLLgcMG10US0K+Cl5aodfF3j5xZgBFY2vMHDnPEgBYW148Qv9jRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nparnevov\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

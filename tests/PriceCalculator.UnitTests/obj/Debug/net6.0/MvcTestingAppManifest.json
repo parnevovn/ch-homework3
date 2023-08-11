@@ -1,0 +1,6 @@
+{
+  "Route256.PriceCalculator.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nparnevov\\Source\\Repos\\homework-3\\src\\Route256.PriceCalculator.Api",
+  "Route256.PriceCalculator.Domain.DI.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nparnevov\\Source\\Repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions",
+  "Route256.PriceCalculator.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nparnevov\\Source\\Repos\\homework-3\\src\\Route256.PriceCalculator.Domain",
+  "Route256.PriceCalculator.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nparnevov\\Source\\Repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure"
+}

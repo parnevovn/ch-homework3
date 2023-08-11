@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\tests\\PriceCalculator.UnitTests\\PriceCalculator.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\Route256.PriceCalculator.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\Route256.PriceCalculator.Api.csproj",
+        "projectName": "Route256.PriceCalculator.Api",
+        "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\Route256.PriceCalculator.Api.csproj",
+        "packagesPath": "C:\\Users\\nparnevov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nparnevov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\Route256.PriceCalculator.Domain.DI.Extensions.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\Route256.PriceCalculator.Domain.DI.Extensions.csproj"
+              },
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj"
+              },
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\Route256.PriceCalculator.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\Route256.PriceCalculator.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\Route256.PriceCalculator.Domain.DI.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\Route256.PriceCalculator.Domain.DI.Extensions.csproj",
+        "projectName": "Route256.PriceCalculator.Domain.DI.Extensions",
+        "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\Route256.PriceCalculator.Domain.DI.Extensions.csproj",
+        "packagesPath": "C:\\Users\\nparnevov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain.DI.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nparnevov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj",
+        "projectName": "Route256.PriceCalculator.Domain",
+        "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj",
+        "packagesPath": "C:\\Users\\nparnevov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nparnevov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\Route256.PriceCalculator.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\Route256.PriceCalculator.Infrastructure.csproj",
+        "projectName": "Route256.PriceCalculator.Infrastructure",
+        "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\Route256.PriceCalculator.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nparnevov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nparnevov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Domain\\Route256.PriceCalculator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.DataAnnotations": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nparnevov\\source\\repos\\homework-3\\tests\\PriceCalculator.UnitTests\\PriceCalculator.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\tests\\PriceCalculator.UnitTests\\PriceCalculator.UnitTests.csproj",
+        "projectName": "PriceCalculator.UnitTests",
+        "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\tests\\PriceCalculator.UnitTests\\PriceCalculator.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\nparnevov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\tests\\PriceCalculator.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nparnevov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\Route256.PriceCalculator.Api.csproj": {
+                "projectPath": "C:\\Users\\nparnevov\\source\\repos\\homework-3\\src\\Route256.PriceCalculator.Api\\Route256.PriceCalculator.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "AutoFixture.Xunit2": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
